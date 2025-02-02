@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2024",
+        "module": "NodeNext",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true, // Включение строгого режима
+        "esModuleInterop": true, // Совместимость с CommonJS
+        "skipLibCheck": true, // Пропуск проверки типов в файлах .d.ts
+        "moduleResolution": "nodenext",
+        "forceConsistentCasingInFileNames": true, // Принуждение к единообразному написанию имен файлов
+        "sourceMap": true
+    },
+    "include": ["src/**/*"], // Папка с исходным кодом
+    "exclude": ["node_modules", "**/*.spec.ts"] // Исключения
+}
