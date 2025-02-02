@@ -1,0 +1,10 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "description": "server-api",
+  "main": "index.js",
+  "repository": "git@github.com:DomnitskiyOleg/server-api.git",
+  "author": "domnitskiy.oleg",
+  "license": "MIT",
+  "type": "module"
+}
